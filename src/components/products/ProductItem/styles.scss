@@ -1,0 +1,31 @@
+.product-item {
+  color: #789093;
+  width: 10%;
+  height: 400px;
+  padding: 30px;
+
+  a {
+    text-decoration: none;
+  }
+
+  &__title {
+    font-size: 18px;
+    color: #4B6063;
+  };
+
+  &__price, &__rating {
+    font-size: 14px;
+    color: #586F71;
+    font-style: italic;
+  };
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  };
+
+  &__description {
+    color: #99A2A3;
+  }
+}

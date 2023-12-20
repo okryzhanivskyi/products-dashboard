@@ -1,0 +1,45 @@
+body {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 50px;
+}
+
+nav {
+  border-bottom: 2px solid #cedbdb;
+  padding-bottom: 20px;
+
+  > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin-left: 50px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    > a {
+      color: #3c807e;
+      text-decoration: none;
+
+      &.active {
+        color: #4ac4cd;
+      }
+
+      &:hover {
+        color: #92b3b2;
+      }
+    }
+  }
+}
+
+main {
+  margin-top: 50px;
+}

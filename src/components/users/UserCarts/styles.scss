@@ -1,0 +1,36 @@
+.user-item {
+  &__carts {
+    margin-top: 10px;
+
+    &__item {
+      &__products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+
+      &__title {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #297b9b;
+      }
+
+      &__product {
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 10%;
+        height: 400px;
+        padding-right: 50px;
+
+        &__image {
+          margin-bottom: 20px;
+        }
+
+        a {
+          text-decoration: none;
+          color: #658d9d;
+        }
+      }
+    }
+  };
+}

@@ -1,0 +1,21 @@
+.product-details {
+  font-size: 18px;
+
+  &__title {
+    font-size: 34px;
+    color: #2c5b85;
+    margin-bottom: 10px;
+  }
+
+  &__images {
+    margin-top: 50px;
+  }
+
+  &__description {
+    margin-bottom: 15px;
+  }
+
+  &__category {
+    text-transform: capitalize;
+  }
+};
